@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import { AiOutlineMail, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-// import Contact2 from "./Contact2";
+import Contact2 from "./Contact2";
 const Contact = () => {
   return (
     <Container fluid className="project-section">
@@ -51,7 +51,7 @@ const Contact = () => {
           </Col>
 
           <Col md="6" className="iframe">
-            {/* <Contact2 /> */}
+            <Contact2 />
           </Col>
         </Row>
       </Container>
